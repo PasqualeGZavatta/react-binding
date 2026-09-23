@@ -1,5 +1,9 @@
+import Counter from "../ui/Counter";
+
 export default function MainContent() {
     return (
-        <div>MainContent</div>
+        <>
+            <Counter />
+        </>
     )
 }
