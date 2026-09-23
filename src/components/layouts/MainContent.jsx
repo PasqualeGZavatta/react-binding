@@ -1,3 +1,4 @@
+import ButtonChangeLanguage from "../ui/ButtonChangeLanguage";
 import ButtonChangeStyle from "../ui/ButtonChangeStyle";
 import Counter from "../ui/Counter";
 import TextAlign from "../ui/TextAlign";
@@ -10,7 +11,8 @@ export default function MainContent() {
             <ButtonChangeStyle />
             <hr />
             <TextAlign />
-
+            <hr />
+            <ButtonChangeLanguage />
         </>
     )
 }
