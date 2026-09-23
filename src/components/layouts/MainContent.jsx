@@ -1,6 +1,7 @@
 import ButtonChangeLanguage from "../ui/ButtonChangeLanguage";
 import ButtonChangeStyle from "../ui/ButtonChangeStyle";
 import Counter from "../ui/Counter";
+import Lista from "../ui/Lista";
 import TextAlign from "../ui/TextAlign";
 
 export default function MainContent() {
@@ -13,6 +14,8 @@ export default function MainContent() {
             <TextAlign />
             <hr />
             <ButtonChangeLanguage />
+            <hr />
+            <Lista />
         </>
     )
 }
