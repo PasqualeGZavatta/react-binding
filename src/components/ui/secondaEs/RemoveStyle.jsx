@@ -66,15 +66,6 @@ export default function RemoveStyle() {
         />
         <span className="m-2">Evidenziato</span>
       </div>
-
-      {/* <p className="fw-bold">Questo è un testo in grassetto</p>
-      <p className="fst-italic">Questo è un testo in corsivo</p>
-      <p className="text-decoration-underline">
-        Questo è un testo sottolineato
-      </p>
-      <p>
-        Questo è un testo <mark>evidenziato</mark>
-      </p> */}
     </div>
   );
 }
