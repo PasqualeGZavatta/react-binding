@@ -6,6 +6,7 @@
 
 import ContatoreCaratteri from "../ui/ContatoreCaratteri";
 import FiltraNomi from "../ui/secondaEs/FiltraNomi";
+import SostituzioneTesto from "../ui/secondaEs/SostituzioneTesto";
 
 export default function MainContent() {
   return (
@@ -27,6 +28,9 @@ export default function MainContent() {
 
       <h2>Es2</h2>
       <FiltraNomi />
+
+      <h2>Es3</h2>
+      <SostituzioneTesto />
     </>
   );
 }
