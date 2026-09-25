@@ -6,6 +6,7 @@
 
 import ContatoreCaratteri from "../ui/ContatoreCaratteri";
 import FiltraNomi from "../ui/secondaEs/FiltraNomi";
+import NomeCognomeUnione from "../ui/secondaEs/NomeCognomeUnione";
 import SostituzioneTesto from "../ui/secondaEs/SostituzioneTesto";
 
 export default function MainContent() {
@@ -23,14 +24,17 @@ export default function MainContent() {
             <Lista /> */}
 
       {/** Esercitazione n2*/}
-      <h2>Es1</h2>
-      <ContatoreCaratteri />
+      {/* <h2>Es1</h2>
+      <ContatoreCaratteri /> */}
 
-      <h2>Es2</h2>
-      <FiltraNomi />
+      {/* <h2>Es2</h2>
+      <FiltraNomi /> */}
 
-      <h2>Es3</h2>
-      <SostituzioneTesto />
+      {/* <h2>Es3</h2>
+      <SostituzioneTesto /> */}
+
+      <h2>Es4</h2>
+      <NomeCognomeUnione />
     </>
   );
 }
