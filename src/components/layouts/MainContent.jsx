@@ -5,6 +5,7 @@
 // import TextAlign from "../ui/TextAlign";
 
 import ContatoreCaratteri from "../ui/ContatoreCaratteri";
+import CheckBoxButton from "../ui/secondaEs/CheckBoxButton";
 import FiltraNomi from "../ui/secondaEs/FiltraNomi";
 import NomeCognomeUnione from "../ui/secondaEs/NomeCognomeUnione";
 import SostituzioneTesto from "../ui/secondaEs/SostituzioneTesto";
@@ -33,8 +34,11 @@ export default function MainContent() {
       {/* <h2>Es3</h2>
       <SostituzioneTesto /> */}
 
-      <h2>Es4</h2>
-      <NomeCognomeUnione />
+      {/* <h2>Es4</h2>
+      <NomeCognomeUnione /> */}
+
+      <h2>Es5</h2>
+      <CheckBoxButton />
     </>
   );
 }
