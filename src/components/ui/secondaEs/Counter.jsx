@@ -17,7 +17,7 @@ export default function Counter() {
         <>
             <section>
                 <p className="text-center display-1 "> {count}</p>
-                <div className="flex text-center">
+                <div className="d-flex justify-content-center gap-2">
 
                     <button className="btn btn-primary "
                         onClick={handleIncrement}

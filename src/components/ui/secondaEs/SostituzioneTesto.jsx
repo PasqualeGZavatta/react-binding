@@ -6,16 +6,11 @@ export default function SostituzioneTesto() {
   return (
     <>
       <div className="container mb-3">
-        <label
-          className="form-label"
-          htmlFor="">
-          Sostituire con:{" "}
-        </label>
+        <label className="form-label">Sostituire con: </label>
         <input
           className="form-control"
           type="text"
-          name=""
-          id=""
+          value={newString}
           onChange={(e) => setNewString(e.target.value)}
         />
 

@@ -22,7 +22,7 @@ export default function MainContent() {
             <hr />
             <Lista /> */}
 
-      {/** Esrcitazione n2*/}
+      {/** Esercitazione n2*/}
       <h2>Es1</h2>
       <ContatoreCaratteri />
 

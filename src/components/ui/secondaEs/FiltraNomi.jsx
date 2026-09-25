@@ -8,22 +8,17 @@ export default function FiltraNomi() {
     item.toLowerCase().includes(nomeCittà.toLowerCase()),
   );
 
-  console.log(citta);
-
   return (
     <>
       <div className="card m-3">
         <input
           type="text"
-          name=""
-          id=""
+          value={nomeCittà}
           onChange={(e) => setNomeCittà(e.target.value)}
         />
         <ul>
           {filteredCity.map((city, index) => (
-            <li
-              key={index}
-              value={nomeCittà}>
+            <li key={index}>
               {city}
             </li>
           ))}

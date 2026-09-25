@@ -12,7 +12,7 @@ export default function ContatoreCaratteri() {
           value={stringa}
           onChange={(e) => setString(e.target.value)}
         />
-        <p>lenght: {stringa.trim().length}</p>
+        <p>length: {stringa.trim().length}</p>
       </div>
     </>
   );
