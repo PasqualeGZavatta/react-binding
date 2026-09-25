@@ -5,6 +5,7 @@
 // import TextAlign from "../ui/TextAlign";
 
 import ContatoreCaratteri from "../ui/ContatoreCaratteri";
+import CambiaValutaSelect from "../ui/secondaEs/CambiaValutaSelect";
 import CheckBoxButton from "../ui/secondaEs/CheckBoxButton";
 import FiltraNomi from "../ui/secondaEs/FiltraNomi";
 import NomeCognomeUnione from "../ui/secondaEs/NomeCognomeUnione";
@@ -45,8 +46,11 @@ export default function MainContent() {
       {/* <h2>Es6</h2>
       <RemoveStyle /> */}
 
-      <h2>Es7</h2>
-      <TextDimensionRadio />
+      {/* <h2>Es7</h2>
+      <TextDimensionRadio /> */}
+
+      <h2>Es8</h2>
+      <CambiaValutaSelect />
     </>
   );
 }
