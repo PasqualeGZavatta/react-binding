@@ -27,6 +27,7 @@ export default function Lista() {
 
 
     function handleisChecked() {
+
         setIsChecked(true)
     }
 
@@ -34,8 +35,8 @@ export default function Lista() {
 
     return (
         <>
-            <div className="card  py-1 "
-                style={{ display: 'flex', flexDirection: 'row', justifyContent: "space-around" }}
+            <div className="card  py-1 d-flex flex-row  "
+            // style={{ display: 'flex', flexDirection: 'row', justifyContent: "space-around" }}
             >
 
                 <div>
@@ -54,7 +55,9 @@ export default function Lista() {
 
 
 
-                <section style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-around', }}>
+                <section className='d-flex flex-column justify-space-around'
+                // style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-around', }}
+                >
 
                     <button className="btn btn-primary"
                         style={{ height: 50, width: 100 }}
@@ -85,7 +88,9 @@ export default function Lista() {
                             <button
                                 onClick={handleisChecked}
                             ><Square /></button>
-                            <span className={`p-2 ${(isChecked) ? 'text-decoration-line-through' : ''}`}>{item}</span>
+                            <span className={`p-2 ${(isChecked) ? 'text-decoration-line-through' : ''}`}>{item}
+
+                            </span>
                         </li>
                     ))}
 

@@ -1,13 +1,17 @@
-import ButtonChangeLanguage from "../ui/ButtonChangeLanguage";
-import ButtonChangeStyle from "../ui/ButtonChangeStyle";
-import Counter from "../ui/Counter";
-import Lista from "../ui/Lista";
-import TextAlign from "../ui/TextAlign";
+// import ButtonChangeLanguage from "../ui/ButtonChangeLanguage";
+// import ButtonChangeStyle from "../ui/ButtonChangeStyle";
+// import Counter from "../ui/Counter";
+// import Lista from "../ui/Lista";
+// import TextAlign from "../ui/TextAlign";
+
+import ContatoreCaratteri from "../ui/ContatoreCaratteri";
+import FiltraNomi from "../ui/secondaEs/FiltraNomi";
 
 export default function MainContent() {
-    return (
-        <>
-            <Counter />
+  return (
+    <>
+      {/** Esrcitazione n1*/}
+      {/* <Counter />
             <hr />
             <ButtonChangeStyle />
             <hr />
@@ -15,7 +19,14 @@ export default function MainContent() {
             <hr />
             <ButtonChangeLanguage />
             <hr />
-            <Lista />
-        </>
-    )
+            <Lista /> */}
+
+      {/** Esrcitazione n2*/}
+      <h2>Es1</h2>
+      <ContatoreCaratteri />
+
+      <h2>Es2</h2>
+      <FiltraNomi />
+    </>
+  );
 }
